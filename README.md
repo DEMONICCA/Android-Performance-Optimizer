@@ -18,7 +18,7 @@
 > [!TIP]
 > Installation ✳️:
 > 1. Make sure Magisk, KSU, or Apatch is Installed
-> 2. Download [Module](https://t.me/modulkuntul) & [SQLite](https://t.me/modulkuntul) for compatible additions to the module.
+> 2. Download [Module](https://t.me/modulkuntul) & [SQLite](https://github.com/DEMONICCA/SQLite3-for-Android.git) for compatible additions to the module.
 > 3. Installation via Magisk/KSU/Apatch Manager
 > 4. Reboot the device after the installation is complete.
 <hr/>
