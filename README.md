@@ -7,12 +7,13 @@
 
 > [!IMPORTANT]
 > Features 🚀:
-> 1. Configuration File Optimization (`*.rc`). ✔️
+> 1. System performance enhancement through init optimization. ✔️
 > 2. SQLite Database Optimization. ✔️
-> 3. Junk File Cleanup. ✔️
-> 4. Bootloop Detection and Prevention. ✔️
-> 5. Supports installation on Magisk, KSU, and Apatch. ✔️
-> 6. Provide detailed logs in '/data/adb/INIT/debug.log'. ✔️
+> 3. Database cleaning to speed up data access. ✔️
+> 4. Junk file removal to free up storage space. ✔️
+> 5. Bootloop Detection and Prevention. ✔️
+> 6. Supports installation on Magisk, KSU, and Apatch. ✔️
+> 7. Provide detailed logs in '/data/adb/INIT/debug.log'. ✔️
 <hr/>
 
 > [!TIP]
