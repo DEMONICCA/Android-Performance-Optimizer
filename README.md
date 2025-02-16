@@ -7,15 +7,13 @@
 
 > [!IMPORTANT]
 > Features 🚀:
-> 1. Reduce lag and improve system response speed. ✔️
-> 2. Optimize code execution with more efficient memory management and compilation. ✔️
-> 3. Speed up compilation for smoother and more efficient applications. ✔️
-> 4. Enabling Hyperthreading & Multithreading on Dalvik VM. ✔️
-> 5. Speed up the dexopt process for applications and systems. ✔️
-> 6. Reduced overhead in the dex2oat process. ✔️
-> 7. Adjust various Dalvik VM parameters for optimal performance. ✔️
+> 1. Configuration File Optimization (`*.rc`). ✔️
+> 2. SQLite Database Optimization. ✔️
+> 3. Junk File Cleanup. ✔️
+> 4. Bootloop Detection and Prevention. ✔️
+> 6. Delete unnecessary cache files, logs, and temporary files. ✔️
 > 8. Supports installation on Magisk, KSU, and Apatch. ✔️
-> 9. Provide detailed logs in '/storage/emulated/0/Android/Dex.log'. ✔️
+> 9. Provide detailed logs in '/data/adb/INIT/debug.log'. ✔️
 <hr/>
 
 > [!TIP]
@@ -30,7 +28,10 @@
 > WARNING ☢️:
 > - This module changes sensitive system settings. Make sure you understand the changes made before installing it.
 > - Use this module at your own risk. Misconfiguration may cause problems such as bootloop or system instability.
-> - Do not use this module together with other Dalvik/ART tweaks to avoid conflicts.
+> - This module makes changes to system files (such as the `*.rc` configuration file). Be sure to understand the risks and backup important data before using it.
+> - Although the module is equipped with a bootloop prevention mechanism, if a bootloop occurs, immediately run `uninstall.sh` to restore the system.
+> - Make sure all dependencies are installed. The absence of any of the commands may cause the module to fail to work correctly and cause system problems.
+> - Make sure all dependencies are installed. The absence of any of the commands may cause the module to fail to work correctly and cause system problems.
 > - Make sure you have access to recovery mode (TWRP/ADB) before installing this module, just in case something goes wrong.
 <hr/>
 
