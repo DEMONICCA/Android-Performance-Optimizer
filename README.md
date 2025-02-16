@@ -11,15 +11,14 @@
 > 2. SQLite Database Optimization. ✔️
 > 3. Junk File Cleanup. ✔️
 > 4. Bootloop Detection and Prevention. ✔️
-> 6. Delete unnecessary cache files, logs, and temporary files. ✔️
-> 8. Supports installation on Magisk, KSU, and Apatch. ✔️
-> 9. Provide detailed logs in '/data/adb/INIT/debug.log'. ✔️
+> 5. Supports installation on Magisk, KSU, and Apatch. ✔️
+> 6. Provide detailed logs in '/data/adb/INIT/debug.log'. ✔️
 <hr/>
 
 > [!TIP]
 > Installation ✳️:
 > 1. Make sure Magisk, KSU, or Apatch is Installed
-> 2. Download [Module](https://t.me/modulkuntul)
+> 2. Download [Module](https://t.me/modulkuntul) & [SQLite](https://t.me/modulkuntul) for compatible additions to the module.
 > 3. Installation via Magisk/KSU/Apatch Manager
 > 4. Reboot the device after the installation is complete.
 <hr/>
