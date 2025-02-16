@@ -13,7 +13,7 @@
 > 4. Junk file removal to free up storage space. ✔️
 > 5. Bootloop Detection and Prevention. ✔️
 > 6. Supports installation on Magisk, KSU, and Apatch. ✔️
-> 7. Provide detailed logs in '/data/adb/INIT/debug.log'. ✔️
+> 7. Provide detailed logs in `/data/adb/INIT/debug.log`. ✔️
 <hr/>
 
 > [!TIP]
