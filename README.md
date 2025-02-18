@@ -29,7 +29,6 @@
 > - This module changes sensitive system settings. Make sure you understand the changes made before installing it.
 > - Use this module at your own risk. Misconfiguration may cause problems such as bootloop or system instability.
 > - This module makes changes to system files (such as the `*.rc` configuration file). Be sure to understand the risks and backup important data before using it.
-> - Although the module is equipped with a bootloop prevention mechanism, if a bootloop occurs, immediately run `uninstall.sh` to restore the system.
 > - Make sure all dependencies are installed. The absence of any of the commands may cause the module to fail to work correctly and cause system problems.
 > - Make sure you have access to recovery mode (TWRP/ADB) before installing this module, just in case something goes wrong.
 <hr/>
