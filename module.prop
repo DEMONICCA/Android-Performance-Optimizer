@@ -1,0 +1,8 @@
+id=INIT
+name=Android Performance Optimizer
+version=3.5.0
+versionCode=3
+author=@illumi
+description=Optimizes Android init system, databases & removes junk files every 30 minutes for better performance & storage efficiency.
+support=https://trakteer.id/demonica/tip
+donate=https://www.paypal.com/paypalme/faniadittiya
