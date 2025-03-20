@@ -11,7 +11,6 @@
 > 2. SQLite Database Optimization. ✔️
 > 3. Database cleaning to speed up data access. ✔️
 > 4. Junk file removal to free up storage space. ✔️
-> 5. Bootloop Detection and Prevention. ✔️
 > 6. Supports installation on Magisk, KSU, and Apatch. ✔️
 > 7. Provide detailed logs in `/data/adb/INIT/debug.log`. ✔️
 <hr/>
@@ -22,6 +21,11 @@
 > 2. Download [Module](https://t.me/modulkuntul) & [SQLite](https://github.com/DEMONICCA/SQLite3-for-Android.git) for compatible additions to the module.
 > 3. Installation via Magisk/KSU/Apatch Manager
 > 4. Reboot the device after the installation is complete.
+<hr/>
+
+> [!WARNING]
+> Disclaimers 🛡️:
+> - This module is provided "as is" without warranty. Use of this module is at your own risk. Make sure to back up original data and configuration before installation. The author is not responsible for any damage or problems that may arise.
 <hr/>
 
 > [!CAUTION]
