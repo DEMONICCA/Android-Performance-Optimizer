@@ -1,7 +1,7 @@
 id=INIT
 name=Android Performance Optimizer
-version=3.5.0
-versionCode=3
+version=4.0.0
+versionCode=4
 author=@illumi
 description=Optimizes Android init system, databases & removes junk files every 30 minutes for better performance & storage efficiency.
 support=https://trakteer.id/demonica/tip
