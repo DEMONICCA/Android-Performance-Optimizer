@@ -7,12 +7,13 @@
 
 > [!IMPORTANT]
 > Features 🚀:
-> 1. System performance enhancement through init optimization. ✔️
-> 2. SQLite Database Optimization. ✔️
-> 3. Database cleaning to speed up data access. ✔️
-> 4. Junk file removal to free up storage space. ✔️
-> 6. Supports installation on Magisk, KSU, and Apatch. ✔️
-> 7. Provide detailed logs in `/data/adb/INIT/debug.log`. ✔️
+> 1. System performance enhancement through deep init optimization. ✔️  
+> 2. Advanced *.rc file cleaning and normalization for faster boot and smoother operation. ✔️  
+> 3. SQLite database optimization with safe, low-priority I/O execution. ✔️  
+> 4. Automatic database vacuuming and cleanup to improve data access speed. ✔️  
+> 5. Safe filesystem remount logic for maximum compatibility. ✔️  
+> 6. Fully silent runtime — no logging overhead, ideal for performance-focused users. ✔️  
+> 7. Supports installation on Magisk, KSU, and Apatch. ✔️  
 <hr/>
 
 > [!TIP]
