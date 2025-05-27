@@ -8,15 +8,14 @@
 > [!IMPORTANT]
 > Features 🚀:
 > 1. Deep SQLite optimization using `VACUUM`, `REINDEX`, and `ANALYZE`, with auto-skipping for large databases. ✔️  
-> 2. Intelligent cache cleaning: dalvik-cache, tombstones, and other runtime logs are safely wiped. ✔️  
-> 3. Dynamic I/O tuning: scheduler adjustment (noop/mq-deadline), read-ahead, and remount tweaks for low-latency response. ✔️  
-> 4. Adaptive memory management: drops caches, adjusts `swappiness`, `vfs_cache_pressure`, and `lowmemorykiller` minfree values based on total RAM. ✔️  
+> 2. Dynamic I/O tuning: scheduler adjustment (noop/mq-deadline), read-ahead, and remount tweaks for low-latency response. ✔️  
+> 3. Adaptive memory management: drops caches, adjusts `swappiness`, `vfs_cache_pressure`, and `lowmemorykiller` minfree values based on total RAM. ✔️  
 > 5. Automatic fstrim of core partitions (`/data`, `/cache`, `/system`, etc.) to maintain NAND flash health and speed. ✔️  
-> 6. UI tuning via `setprop`: improves render latency, frame pacing, and touch responsiveness. ✔️  
-> 7. Game Mode: boosts CPU/GPU performance, reduces scheduler latency, and disables heads-up notifications. ✔️  
-> 8. ART/Dalvik optimization via `cmd package compile` and `bg-dexopt-job` for faster app launch times. ✔️  
-> 9. Lockfile-protected runtime to prevent overlapping execution and ensure atomic operations. ✔️  
-> 10. Start/finish notifications (optional) to inform users when optimizations begin and complete. ✔️  
+> 5. UI tuning via `setprop`: improves render latency, frame pacing, and touch responsiveness. ✔️  
+> 6. Game Mode: boosts CPU/GPU performance, reduces scheduler latency, and disables heads-up notifications. ✔️  
+> 7. ART/Dalvik optimization via `cmd package compile` and `bg-dexopt-job` for faster app launch times. ✔️  
+> 8. Lockfile-protected runtime to prevent overlapping execution and ensure atomic operations. ✔️  
+> 9. Start/finish notifications (optional) to inform users when optimizations begin and complete. ✔️  
 <hr/>
 
 > [!TIP]
