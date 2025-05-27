@@ -1,4 +1,4 @@
-> ![Image](https://github.com/user-attachments/assets/438d865a-b13d-4071-b938-0dbfb34d502d)
+> ![Image](https://github.com/user-attachments/assets/599e4150-2ee9-4357-8246-807713c533a2)
 
 > [!NOTE]
 > Description 📝:
@@ -7,13 +7,16 @@
 
 > [!IMPORTANT]
 > Features 🚀:
-> 1. System performance enhancement through deep init optimization. ✔️  
-> 2. Advanced *.rc file cleaning and normalization for faster boot and smoother operation. ✔️  
-> 3. SQLite database optimization with safe, low-priority I/O execution. ✔️  
-> 4. Automatic database vacuuming and cleanup to improve data access speed. ✔️  
-> 5. Safe filesystem remount logic for maximum compatibility. ✔️  
-> 6. Fully silent runtime — no logging overhead, ideal for performance-focused users. ✔️  
-> 7. Supports installation on Magisk, KSU, and Apatch. ✔️  
+> 1. Deep SQLite optimization using `VACUUM`, `REINDEX`, and `ANALYZE`, with auto-skipping for large databases. ✔️  
+> 2. Intelligent cache cleaning: dalvik-cache, tombstones, and other runtime logs are safely wiped. ✔️  
+> 3. Dynamic I/O tuning: scheduler adjustment (noop/mq-deadline), read-ahead, and remount tweaks for low-latency response. ✔️  
+> 4. Adaptive memory management: drops caches, adjusts `swappiness`, `vfs_cache_pressure`, and `lowmemorykiller` minfree values based on total RAM. ✔️  
+> 5. Automatic fstrim of core partitions (`/data`, `/cache`, `/system`, etc.) to maintain NAND flash health and speed. ✔️  
+> 6. UI tuning via `setprop`: improves render latency, frame pacing, and touch responsiveness. ✔️  
+> 7. Game Mode: boosts CPU/GPU performance, reduces scheduler latency, and disables heads-up notifications. ✔️  
+> 8. ART/Dalvik optimization via `cmd package compile` and `bg-dexopt-job` for faster app launch times. ✔️  
+> 9. Lockfile-protected runtime to prevent overlapping execution and ensure atomic operations. ✔️  
+> 10. Start/finish notifications (optional) to inform users when optimizations begin and complete. ✔️  
 <hr/>
 
 > [!TIP]
