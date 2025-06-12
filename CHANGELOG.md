@@ -2,6 +2,21 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [6.0.0]
+>
+> - Minor code fixes in `uninstall.sh` to make it more optimal.
+> - Moved the `optimize_art` section into service.sh now, to make the process a bit faster than before.
+> - Check and fallback for availability of `sqlite3`, `setprop`, and other commands.
+> - Avoid forcing chmod 660 if the permissions are already correct in `optimize_sqlite`.
+> - Separated ZRAM logic from `tune_io` and moved it into its own function `setup_zram` for better modularity.
+> - Improved memory optimization with additional sysctl parameters such as `page-cluster`, `dirty_writeback_centisecs`, and KSM control.
+> - Added fail-safe write checks (`[ -w ... ]`) before applying sysctl values to prevent unnecessary errors.
+> - Enhanced game performance tuning with scheduler tweaks like `sched_child_runs_first` and `sched_idle_min_granularity_ns`.
+> - Expanded GPU max frequency detection to support more device paths.
+> - Removed direct call to `optimize_art` in `main`, as it's now managed separately by `service.sh`.
+> - General code cleanup for safety, modularity, and efficiency.
+---
+
 > [5.0.0]
 >
 > - Migrated shell from `bash` to `sh` for broader compatibility and faster execution.

@@ -1,7 +1,7 @@
 id=INIT
 name=AP0
-version=5.0.0
-versionCode=5
+version=6.0.0
+versionCode=6
 author=@illumi
 description=Improve the speed and smoothness of your Android by optimizing database, memory and system customization.
 support=https://trakteer.id/demonica/tip
