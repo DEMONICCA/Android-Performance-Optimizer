@@ -2,6 +2,29 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [7.0.0] `Final`
+>
+> - Update or change `README.md` to make it more professional.
+> - Update `README.md` to be a little more professional.
+> - Update the `customize.sh` section with a few changes.
+> - Updated `uninstall.sh` with minor changes to the removal code.
+> - Add module banner for KernelSU Next.
+> - Tidying up and making a few code changes in the `service.sh` file.
+> - Renamed `notip` to `notif`, with safer checks for `su` and `cmd` availability before sending notifications.
+> - Removed lockfile mechanism (`rc_optimization.lock`) and related cleanup trap handling.
+> - Reworked `optimize_sqlite` with array-based execution flow, enhanced permission checks, and refined size filtering logic.
+> - Improved `tune_io` with smarter block device detection, conditional writes, and UFS/eMMC scheduler tuning.
+> - Enhanced `setup_zram` with stricter validation on memory size, tools availability, and writable nodes.
+> - Strengthened `tune_memory` with safer fallbacks and guarded calls to `settings`.
+> - Refined `run_fstrim` to only execute on valid mountpoints, ensuring safer trimming operations.
+> - Updated `ui_optimize` to use properly quoted key-value pairs for reliability.
+> - Hardened `game_opt` by wrapping `settings` operations with availability checks.
+> - Added new `disable_thermal_opt` function to relax thermal limits and stop thermal services.
+> - Added new `gpu_performance_opt` function to enforce performance governor, lock GPU frequencies, and tune graphic properties.
+> - Added new `touch_focus_opt` function to improve touch responsiveness and prioritize gaming input modes.
+> - General code cleanup for stability, modularity, and consistency.
+---
+
 > [6.0.0]
 >
 > - Minor code fixes in `uninstall.sh` to make it more optimal.
